@@ -16,11 +16,11 @@
 }
 
 .article-pic{
-    max-width: 33%;
+    width: 33%;
 }
 
 p{
-    max-width: 33%;
+    width: 33%;
 }
 
 .link:hover {
@@ -62,17 +62,27 @@ img{
     justify-content: center;
 }
 
+
+
+
+
+
+
+/*Mobile Out Media Queries*/
+
 @media (min-width : 552px){
     .menu-mobile{
         display: none;
     }
 
     section{
-        display: inline-block;
+        display: flex;
+        flex-direction: row;
     }
 
     .menu-desktop{
         display: inline-block;
     }
+
 
 }

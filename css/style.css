@@ -8,10 +8,19 @@
     display: inline-block;
 }
 
+
 .headerpic {
     border-radius: 2em;
     display: block;
     margin: 0 auto 2em;
+}
+
+.article-pic{
+    max-width: 33%;
+}
+
+p{
+    max-width: 33%;
 }
 
 .link:hover {
@@ -32,9 +41,34 @@ img{
     max-width: 100%;
 }
 
+
+.mobile{
+    display: flex;
+}
+
+.link{
+    background-color: rgb(221, 82, 82);
+    color: rgb(2, 0, 0);
+    border-radius: 2em;
+    padding: 10px;
+    justify-content: center;
+}
+
+.link-mobile{
+    background-color: rgb(221, 82, 82);
+    color: rgb(2,0,0);
+    border-radius: 2em;
+    padding: 10px;
+    justify-content: center;
+}
+
 @media (min-width : 552px){
     .menu-mobile{
         display: none;
+    }
+
+    section{
+        display: inline-block;
     }
 
     .menu-desktop{

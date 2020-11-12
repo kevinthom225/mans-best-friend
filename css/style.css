@@ -19,9 +19,6 @@
     width: 33%;
 }
 
-p{
-    width: 33%;
-}
 
 .link:hover {
     opacity: .75;
@@ -31,6 +28,7 @@ p{
     display: inline-block;
     padding-left: 20px;
 }
+
 
 .menu-desktop{
     display: none;
@@ -62,10 +60,18 @@ img{
     justify-content: center;
 }
 
+h2{
+    text-align: center;
+}
 
+.article-pic{
+    width: 85%;
+    margin-left: 25px;
+}
 
-
-
+p{
+    margin-left: 25px;
+}
 
 
 /*Mobile Out Media Queries*/
@@ -79,6 +85,7 @@ img{
         display: flex;
         flex-direction: row;
     }
+
 
     .menu-desktop{
         display: inline-block;

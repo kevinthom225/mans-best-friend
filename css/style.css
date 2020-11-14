@@ -9,11 +9,16 @@
 
 }
 
+.menu-desktop{
+    padding-left: 10px;
+}
+
 
 .headerpic {
     border-radius: 2em;
     display: block;
-    margin: 0 auto 2em;
+    /*margin: 0 auto 2em;*/
+    margin-bottom: 25px;
 }
 
 
@@ -28,6 +33,7 @@
     display: none;
     float: right;
     margin-right: 20px;
+    margin-left: 0px;
 }
 
 img{
@@ -91,10 +97,25 @@ li:nth-child(2n +4){
     color: white;
 }
 
+form{
+    text-align: center;
+}
+
+label{
+    display: block;
+}
+
+button{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+}
+
 
 /*Mobile Out Media Queries*/
 
 @media (min-width : 552px){
+
     .menu-mobile{
         display: none;
     }
@@ -107,12 +128,27 @@ li:nth-child(2n +4){
     
     .menu-desktop{
         display: inline-block;
-        float: right;
+        /*float: right;*/
 
     }
 
     h3{
         font-style: bold;
+    }
+
+    .loop{
+        font-size: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #contact{
+        font-size: 35px;
+        font-weight: bold;
+        text-align: center;
+        justify-content: center;
     }
 
 
@@ -128,6 +164,17 @@ li:nth-child(2n +4){
         border: solid black;
     }
 
+    .loop{
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        justify-content: center;
+    }
 
+    #contact{
+        font-size: 15px;
+        text-align: center;
+        justify-content: center;
+    }
 
 }

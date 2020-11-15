@@ -17,8 +17,9 @@
 .headerpic {
     border-radius: 2em;
     display: block;
-    /*margin: 0 auto 2em;*/
     margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 

@@ -174,7 +174,8 @@ button{
 
 }
 
-
+/*Second media query allows for h2 heading alterations 
+and some text size alterations as they appear at mobile size*/
 
 @media (max-width: 552px){
     ul{
@@ -197,6 +198,6 @@ button{
         font-size: 25px;
         text-align: center;
         justify-content: center;
-    }
+    }*/
 
 }

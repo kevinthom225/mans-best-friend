@@ -127,6 +127,7 @@ button{
 
 
 
+
 /*Mobile Out Media Queries*/
 
 @media (min-width : 552px){
@@ -137,7 +138,7 @@ button{
         display: none;
     }
 
-    /*Flexbox addition for desktop view of paragraphs*/
+    /*Flexbox addition for desktop view of paragraphs as rows*/
 
     section{
         display: flex;
